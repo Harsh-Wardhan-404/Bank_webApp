@@ -61,7 +61,7 @@ def login_enter():
     password = form.password.data
     print(username,file=sys.stderr)
     
-    if username=="fedchoicebank" and password=="fedchoicebank":
+    if username=="DBMS" and password=="Viit$1234":
         session["id"]=1
         return render_template("base.html")
 
